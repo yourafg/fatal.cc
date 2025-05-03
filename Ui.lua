@@ -1,6 +1,6 @@
 local UI = {}
 
-function UI::loadwindow()
+function UI:loadwindow()
     local loader = Instance.new("ScreenGui")
     local mainload = Instance.new("Frame")
     local fatal = Instance.new("ImageLabel")
