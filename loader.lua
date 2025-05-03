@@ -1,3 +1,6 @@
+local TweenService = game:GetService("TweenService")
+local RunService = game:GetService("RunService")
+
 local UI = {}
 
 function UI:loadwindow()
