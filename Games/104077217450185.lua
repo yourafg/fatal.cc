@@ -1,8 +1,8 @@
-local repo = 'https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main/'
+local repo = 'https://raw.githubusercontent.com/yourafg/fatal/refs/heads/main/'
 
-local Library = loadstring(game:HttpGet(repo .. 'Library.lua'))()
-local ThemeManager = loadstring(game:HttpGet(repo .. 'addons/ThemeManager.lua'))()
-local SaveManager = loadstring(game:HttpGet(repo .. 'addons/SaveManager.lua'))()
+local Library = loadstring(game:HttpGet(repo .. 'Library/library.lua'))()
+local ThemeManager = loadstring(game:HttpGet(repo .. 'Library/thememanager.lua'))()
+local SaveManager = loadstring(game:HttpGet(repo .. 'Library/savemanager.lua'))()
 
 local Window = Library:CreateWindow({
     Title = 'fatal',
