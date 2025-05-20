@@ -1,4 +1,4 @@
-local repo = 'https://github.com/yourafg/fatal/blob/main/'
+local repo = 'https://raw.githubusercontent.com/yourafg/fatal/refs/heads/main/'
 
 local Library = loadstring(game:HttpGet(repo .. 'Library/library.lua'))()
 local ThemeManager = loadstring(game:HttpGet(repo .. 'Library/thememanager.lua'))()
